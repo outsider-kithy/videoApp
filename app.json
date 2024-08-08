@@ -11,6 +11,16 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "アプリ「 $(PRODUCT_NAME) 」がカメラを使用することを許可します。",
+          "microphonePermission": "アプリ「 $(PRODUCT_NAME) 」がマイクを使用することを許可します。",
+          "recordAudioAndroid": true
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
